@@ -4519,7 +4519,7 @@ a.scroll-top i {
   content: "";
   width: 0%;
   height: 1px;
-  background: #000;
+  background: #f5b629;
   top: 25px;
   left: 0;
   transition: 0.3s;

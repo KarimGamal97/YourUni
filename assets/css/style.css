@@ -4464,7 +4464,8 @@ a.scroll-top i {
   position: relative;
   padding: 75px 0;
   overflow: hidden;
-  background: url(../images/footer-area.png);
+  /* background: url(../images/footer-area.png); */
+  background-color: #381565;
   background-size: cover;
 }
 .footer-area .footer-left p {

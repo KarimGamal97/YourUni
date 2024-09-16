@@ -184,7 +184,7 @@
                       </p>
                     </div>
                     <div class="slider-btn bnt1 text-center">
-                      <a href="admission.html" class="box-btn"
+                      <a href="#RegisterForm" class="box-btn"
                         >طلب استشارة مجانية</a
                       >
                       <!-- <a href="special-class.html" class="border-btn"
@@ -215,7 +215,7 @@
                       </p>
                     </div>
                     <div class="slider-btn bnt1 text-center">
-                      <a href="admission.html" class="box-btn"
+                      <a href="#RegisterForm" class="box-btn"
                         >طلب استشارة مجانية</a
                       >
                       <!-- <a href="special-class.html" class="border-btn"
@@ -401,7 +401,9 @@
                     </ul>
                   </div>
                 </div>
-                <!-- <a href="about.html" class="box-btn">Know More</a> -->
+                <a href="#RegisterForm" class="box-btn" style="width: 34%"
+                  >طلب استشارة مجانية
+                </a>
               </div>
             </div>
           </div>
@@ -473,7 +475,9 @@
                         <span>Seconds</span>
                       </li>
                     </ul>
-                    <a href="admission.html" class="box-btn">سجل الأن</a>
+                    <a href="#RegisterForm" class="box-btn"
+                      >طلب استشارة مجانية
+                    </a>
                   </div>
                 </div>
               </div>
@@ -876,7 +880,7 @@
     <!-- End Teachers Area -->
 
     <!-- Contact Area -->
-    <section class="home-contact-area pb-100 pt-100">
+    <!-- <section class="home-contact-area pb-100 pt-100">
       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col-lg-6 ps-0">
@@ -979,7 +983,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- End Contact Area -->
 
     <!-- Footer Area -->
@@ -1097,189 +1101,526 @@
     </div> -->
     <!-- End Footer Area -->
 
-    <!-- Test -->
-
     <!-- MultiStep Form -->
-    <div class="container-fluid" id="grad1">
-      <div class="row justify-content-center mt-0">
-        <div
-          class="col-11 col-sm-9 col-md-7 col-lg-6 text-center p-0 mt-3 mb-2"
-        >
-          <div class="card px-0 pt-4 pb-0 mt-3 mb-3">
-            <h2><strong>3 خطوات للحصول على استشارة مجاناً </strong></h2>
-            <p>املأ كل خانة للانتقال إلى الخطوة التالية</p>
-            <div class="row">
-              <div class="col-md-12 mx-0">
-                <form id="msform">
-                  <!-- progressbar -->
-                  <ul id="progressbar">
-                    <li class="active" id="account">
-                      <strong>بيانات شخصية</strong>
-                    </li>
-                    <li id="personal"><strong>المرحلة الدراسية</strong></li>
-                    <li id="payment"><strong>الدقع</strong></li>
-                    <li id="confirm"><strong>الانتهاء</strong></li>
-                  </ul>
-                  <!-- fieldsets -->
-                  <fieldset>
-                    <div class="form-card">
-                      <h2 class="fs-title">Account Information</h2>
-                      <input type="email" name="email" placeholder="Email Id" />
-                      <input type="text" name="uname" placeholder="UserName" />
-                      <input
-                        type="password"
-                        name="pwd"
-                        placeholder="Password"
-                      />
-                      <input
-                        type="password"
-                        name="cpwd"
-                        placeholder="Confirm Password"
-                      />
-                    </div>
-                    <input
-                      type="button"
-                      name="next"
-                      class="next action-button"
-                      value="Next Step"
-                    />
-                  </fieldset>
-                  <fieldset>
-                    <div class="form-card">
-                      <h2 class="fs-title">Personal Information</h2>
-                      <input
-                        type="text"
-                        name="fname"
-                        placeholder="First Name"
-                      />
-                      <input type="text" name="lname" placeholder="Last Name" />
-                      <input
-                        type="text"
-                        name="phno"
-                        placeholder="Contact No."
-                      />
-                      <input
-                        type="text"
-                        name="phno_2"
-                        placeholder="Alternate Contact No."
-                      />
-                    </div>
-                    <input
-                      type="button"
-                      name="previous"
-                      class="previous action-button-previous"
-                      value="Previous"
-                    />
-                    <input
-                      type="button"
-                      name="next"
-                      class="next action-button"
-                      value="Next Step"
-                    />
-                  </fieldset>
-                  <fieldset>
-                    <div class="form-card">
-                      <h2 class="fs-title">Payment Information</h2>
-                      <div class="radio-group">
-                        <div class="radio" data-value="credit">
-                          <img
-                            src="https://i.imgur.com/XzOzVHZ.jpg"
-                            width="200px"
-                            height="100px"
-                          />
-                        </div>
-                        <div class="radio" data-value="paypal">
-                          <img
-                            src="https://i.imgur.com/jXjwZlj.jpg"
-                            width="200px"
-                            height="100px"
-                          />
-                        </div>
-                        <br />
-                      </div>
-                      <label class="pay">Card Holder Name*</label>
-                      <input type="text" name="holdername" placeholder="" />
-                      <div class="row">
-                        <div class="col-9">
-                          <label class="pay">Card Number*</label>
-                          <input type="text" name="cardno" placeholder="" />
-                        </div>
-                        <div class="col-3">
-                          <label class="pay">CVC*</label>
+    <section id="RegisterForm">
+      <div class="container-fluid" id="grad1">
+        <div class="row justify-content-center mt-0">
+          <div
+            class="col-11 col-sm-9 col-md-7 col-lg-6 text-center p-0 mt-3 mb-2"
+          >
+            <div class="card px-0 pt-4 pb-0 mt-3 mb-3">
+              <h2>
+                <strong
+                  >3 خطوات للحصول على استشارة
+                  <span
+                    style="font-weight: bold; color: #f5b629"
+                    class="animated-span"
+                    >مجاناً</span
+                  >
+                </strong>
+              </h2>
+              <p>املأ كل الخانات للانتقال إلى الخطوة التالية</p>
+              <div class="row">
+                <div class="col-md-12 mx-0">
+                  <form id="msform">
+                    <!-- progressbar -->
+                    <ul id="progressbar">
+                      <li class="active" id="account">
+                        <strong>بيانات شخصية</strong>
+                      </li>
+                      <li id="personal"><strong>المرحلة الدراسية</strong></li>
+                      <li id="payment"><strong>الدفع</strong></li>
+                      <li id="confirm"><strong>التأكيد</strong></li>
+                    </ul>
+                    <!-- fieldsets -->
+                    <fieldset>
+                      <div class="form-card">
+                        <h2 class="fs-title text-center mb-4">
+                          البيانات الشخصية
+                        </h2>
+                        <input
+                          type="text"
+                          name="uname"
+                          placeholder="اسم الطالب"
+                        />
+                        <input
+                          type="email"
+                          name="email"
+                          placeholder="البريد الالكتروني"
+                          style="text-align: right"
+                        />
+                        <div class="d-flex align-center" style="gap: 10px">
                           <input
-                            type="password"
-                            name="cvcpwd"
-                            placeholder="***"
+                            id="country-code-input"
+                            list="country-codes"
+                            type="text"
+                            name="uname"
+                            placeholder="مفتاح الدولة"
+                          />
+                          <datalist id="country-codes">
+                            <option value="الجزائر (+213)"></option>
+                            <option value="أندورا (+376)"></option>
+                            <option value="أنغولا (+244)"></option>
+                            <option value="أنغويلا (+1264)"></option>
+                            <option value="أنتيغوا وبربودا (+1268)"></option>
+                            <option value="الأرجنتين (+54)"></option>
+                            <option value="أرمينيا (+374)"></option>
+                            <option value="أروبا (+297)"></option>
+                            <option value="أستراليا (+61)"></option>
+                            <option value="النمسا (+43)"></option>
+                            <option value="أذربيجان (+994)"></option>
+                            <option value="الباهاماس (+1242)"></option>
+                            <option value="البحرين (+973)"></option>
+                            <option value="بنغلاديش (+880)"></option>
+                            <option value="بربادوس (+1246)"></option>
+                            <option value="بيلاروسيا (+375)"></option>
+                            <option value="بلجيكا (+32)"></option>
+                            <option value="بليز (+501)"></option>
+                            <option value="بنين (+229)"></option>
+                            <option value="برمودا (+1441)"></option>
+                            <option value="بوتان (+975)"></option>
+                            <option value="بوليفيا (+591)"></option>
+                            <option value="البوسنة والهرسك (+387)"></option>
+                            <option value="بوتسوانا (+267)"></option>
+                            <option value="البرازيل (+55)"></option>
+                            <option value="بروناي (+673)"></option>
+                            <option value="بلغاريا (+359)"></option>
+                            <option value="بوركينا فاسو (+226)"></option>
+                            <option value="بوروندي (+257)"></option>
+                            <option value="كمبوديا (+855)"></option>
+                            <option value="الكاميرون (+237)"></option>
+                            <option value="كندا (+1)"></option>
+                            <option value="الرأس الأخضر (+238)"></option>
+                            <option value="جزر كايمان (+1345)"></option>
+                            <option
+                              value="جمهورية إفريقيا الوسطى (+236)"
+                            ></option>
+                            <option value="تشيلي (+56)"></option>
+                            <option value="الصين (+86)"></option>
+                            <option value="كولومبيا (+57)"></option>
+                            <option value="جزر القمر (+269)"></option>
+                            <option value="الكونغو (+242)"></option>
+                            <option value="جزر كوك (+682)"></option>
+                            <option value="كوستاريكا (+506)"></option>
+                            <option value="كرواتيا (+385)"></option>
+                            <option value="كوبا (+53)"></option>
+                            <option value="قبرص الشمالية (+90392)"></option>
+                            <option value="قبرص الجنوبية (+357)"></option>
+                            <option value="جمهورية التشيك (+42)"></option>
+                            <option value="الدنمارك (+45)"></option>
+                            <option value="جيبوتي (+253)"></option>
+                            <option value="دومينيكا (+1809)"></option>
+                            <option
+                              value="جمهورية الدومينيكان (+1809)"
+                            ></option>
+                            <option value="الإكوادور (+593)"></option>
+                            <option value="مصر (+20)"></option>
+                            <option value="السلفادور (+503)"></option>
+                            <option value="غينيا الاستوائية (+240)"></option>
+                            <option value="إريتريا (+291)"></option>
+                            <option value="إستونيا (+372)"></option>
+                            <option value="إثيوبيا (+251)"></option>
+                            <option value="جزر فوكلاند (+500)"></option>
+                            <option value="جزر فارو (+298)"></option>
+                            <option value="فيجي (+679)"></option>
+                            <option value="فنلندا (+358)"></option>
+                            <option value="فرنسا (+33)"></option>
+                            <option value="غويانا الفرنسية (+594)"></option>
+                            <option value="بولينيزيا الفرنسية (+689)"></option>
+                            <option value="الغابون (+241)"></option>
+                            <option value="غامبيا (+220)"></option>
+                            <option value="جورجيا (+7880)"></option>
+                            <option value="ألمانيا (+49)"></option>
+                            <option value="غانا (+233)"></option>
+                            <option value="جبل طارق (+350)"></option>
+                            <option value="اليونان (+30)"></option>
+                            <option value="جرينلاند (+299)"></option>
+                            <option value="غرينادا (+1473)"></option>
+                            <option value="جوادلوب (+590)"></option>
+                            <option value="غوام (+671)"></option>
+                            <option value="غواتيمالا (+502)"></option>
+                            <option value="غينيا (+224)"></option>
+                            <option value="غينيا بيساو (+245)"></option>
+                            <option value="غيانا (+592)"></option>
+                            <option value="هايتي (+509)"></option>
+                            <option value="هندوراس (+504)"></option>
+                            <option value="هونغ كونغ (+852)"></option>
+                            <option value="المجر (+36)"></option>
+                            <option value="آيسلندا (+354)"></option>
+                            <option value="الهند (+91)"></option>
+                            <option value="إندونيسيا (+62)"></option>
+                            <option value="إيران (+98)"></option>
+                            <option value="العراق (+964)"></option>
+                            <option value="أيرلندا (+353)"></option>
+                            <option value="إسرائيل (+972)"></option>
+                            <option value="إيطاليا (+39)"></option>
+                            <option value="جامايكا (+1876)"></option>
+                            <option value="اليابان (+81)"></option>
+                            <option value="الأردن (+962)"></option>
+                            <option value="كازاخستان (+7)"></option>
+                            <option value="كينيا (+254)"></option>
+                            <option value="كيريباتي (+686)"></option>
+                            <option value="كوريا الشمالية (+850)"></option>
+                            <option value="كوريا الجنوبية (+82)"></option>
+                            <option value="الكويت (+965)"></option>
+                            <option value="قيرغيزستان (+996)"></option>
+                            <option value="لاوس (+856)"></option>
+                            <option value="لاتفيا (+371)"></option>
+                            <option value="لبنان (+961)"></option>
+                            <option value="ليسوتو (+266)"></option>
+                            <option value="ليبيريا (+231)"></option>
+                            <option value="ليبيا (+218)"></option>
+                            <option value="ليختنشتاين (+417)"></option>
+                            <option value="ليتوانيا (+370)"></option>
+                            <option value="لوكسمبورغ (+352)"></option>
+                            <option value="ماكاو (+853)"></option>
+                            <option value="مقدونيا (+389)"></option>
+                            <option value="مدغشقر (+261)"></option>
+                            <option value="مالاوي (+265)"></option>
+                            <option value="ماليزيا (+60)"></option>
+                            <option value="جزر المالديف (+960)"></option>
+                            <option value="مالي (+223)"></option>
+                            <option value="مالطا (+356)"></option>
+                            <option value="جزر مارشال (+692)"></option>
+                            <option value="مارتينيك (+596)"></option>
+                            <option value="موريتانيا (+222)"></option>
+                            <option value="مايوت (+269)"></option>
+                            <option value="المكسيك (+52)"></option>
+                            <option value="ميكرونيزيا (+691)"></option>
+                            <option value="مولدوفا (+373)"></option>
+                            <option value="موناكو (+377)"></option>
+                            <option value="منغوليا (+976)"></option>
+                            <option value="مونتسيرات (+1664)"></option>
+                            <option value="المغرب (+212)"></option>
+                            <option value="موزمبيق (+258)"></option>
+                            <option value="ميانمار (+95)"></option>
+                            <option value="ناميبيا (+264)"></option>
+                            <option value="ناورو (+674)"></option>
+                            <option value="نيبال (+977)"></option>
+                            <option value="هولندا (+31)"></option>
+                            <option value="كاليدونيا الجديدة (+687)"></option>
+                            <option value="نيوزيلندا (+64)"></option>
+                            <option value="نيكاراغوا (+505)"></option>
+                            <option value="النيجر (+227)"></option>
+                            <option value="نيجيريا (+234)"></option>
+                            <option value="نيوي (+683)"></option>
+                            <option value="جزيرة نورفولك (+672)"></option>
+                            <option value="النرويج (+47)"></option>
+                            <option value="عمان (+968)"></option>
+                            <option value="بالاو (+680)"></option>
+                            <option value="بنما (+507)"></option>
+                            <option value="بابوا غينيا الجديدة (+675)"></option>
+                            <option value="باراغواي (+595)"></option>
+                            <option value="بيرو (+51)"></option>
+                            <option value="الفلبين (+63)"></option>
+                            <option value="بولندا (+48)"></option>
+                            <option value="البرتغال (+351)"></option>
+                            <option value="بورتوريكو (+1787)"></option>
+                            <option value="قطر (+974)"></option>
+                            <option value="ريونيون (+262)"></option>
+                            <option value="رومانيا (+40)"></option>
+                            <option value="روسيا (+7)"></option>
+                            <option value="رواندا (+250)"></option>
+                            <option value="سانت كيتس ونيفيس (+1869)"></option>
+                            <option value="سانت لوسيا (+1758)"></option>
+                            <option
+                              value="سانت فنسنت وجزر غرينادين (+1784)"
+                            ></option>
+                            <option value="ساموا (+685)"></option>
+                            <option value="سان مارينو (+378)"></option>
+                            <option value="ساو تومي وبرينسيبي (+239)"></option>
+                            <option
+                              value="المملكة العربية السعودية (+966)"
+                            ></option>
+                            <option value="السنغال (+221)"></option>
+                            <option value="صربيا (+381)"></option>
+                            <option value="سيشيل (+248)"></option>
+                            <option value="سيراليون (+232)"></option>
+                            <option value="سنغافورة (+65)"></option>
+                            <option value="سلوفاكيا (+421)"></option>
+                            <option value="سلوفينيا (+386)"></option>
+                            <option value="جزر سليمان (+677)"></option>
+                            <option value="الصومال (+252)"></option>
+                            <option value="جنوب أفريقيا (+27)"></option>
+                            <option value="إسبانيا (+34)"></option>
+                            <option value="سريلانكا (+94)"></option>
+                            <option value="السودان (+249)"></option>
+                            <option value="سورينام (+597)"></option>
+                            <option value="سوازيلاند (+268)"></option>
+                            <option value="السويد (+46)"></option>
+                            <option value="سويسرا (+41)"></option>
+                            <option value="سوريا (+963)"></option>
+                            <option value="تايوان (+886)"></option>
+                            <option value="طاجيكستان (+7)"></option>
+                            <option value="تنزانيا (+255)"></option>
+                            <option value="تايلاند (+66)"></option>
+                            <option value="توجو (+228)"></option>
+                            <option value="تونغا (+676)"></option>
+                            <option value="ترينيداد وتوباغو (+1868)"></option>
+                            <option value="تونس (+216)"></option>
+                            <option value="تركيا (+90)"></option>
+                            <option value="تركمانستان (+7)"></option>
+                            <option value="توفالو (+688)"></option>
+                            <option value="أوغندا (+256)"></option>
+                            <option value="أوكرانيا (+380)"></option>
+                            <option
+                              value="الإمارات العربية المتحدة (+971)"
+                            ></option>
+                            <option value="المملكة المتحدة (+44)"></option>
+                            <option value="الولايات المتحدة (+1)"></option>
+                            <option value="أوروغواي (+598)"></option>
+                            <option value="أوزبكستان (+7)"></option>
+                            <option value="فانواتو (+678)"></option>
+                            <option value="الفاتيكان (+379)"></option>
+                            <option value="فنزويلا (+58)"></option>
+                            <option value="فيتنام (+84)"></option>
+                            <option
+                              value="جزر فيرجن البريطانية (+1284)"
+                            ></option>
+                            <option
+                              value="جزر فيرجن الأمريكية (+1340)"
+                            ></option>
+                            <option value="واليز وفوتونا (+681)"></option>
+                            <option value="اليمن (+969)"></option>
+                            <option value="زامبيا (+260)"></option>
+                            <option value="زيمبابوي (+263)"></option>
+                          </datalist>
+                          <input
+                            type="text"
+                            name="uname"
+                            placeholder="رقم الجوال"
                           />
                         </div>
+                        <input
+                          id="country-name-input"
+                          list="country-names"
+                          type="country"
+                          placeholder="في اي بلد تعيش حاليا؟"
+                        />
+                        <datalist id="country-names">
+                          <option value="مصر"></option>
+                          <option value="السعودية"></option>
+                          <option value="ليبيا"></option>
+                          <option value="المغرب"></option>
+                          <option value="الجزائر"></option>
+                          <option value="البحرين"></option>
+                          <option value="الصومال"></option>
+                          <option value="الأردن"></option>
+                          <option value="فلسطين"></option>
+                          <option value="العراق"></option>
+                          <option value="لبنان"></option>
+                          <option value="سوريا"></option>
+                          <option value="تونس"></option>
+                          <option value="السودان"></option>
+                          <option value="موريتنانيا"></option>
+                          <option value="عمان"></option>
+                          <option value="اليمن"></option>
+                          <option value="الكويت"></option>
+                          <option value="جيبوتي"></option>
+                          <option value="جزر القمر"></option>
+                          <option value="الامارات العربية المتحدة"></option>
+                        </datalist>
                       </div>
-                      <div class="row">
-                        <div class="col-3">
-                          <label class="pay">Expiry Date*</label>
-                        </div>
-                        <div class="col-9">
-                          <select class="list-dt" id="month" name="expmonth">
-                            <option selected>Month</option>
-                            <option>January</option>
-                            <option>February</option>
-                            <option>March</option>
-                            <option>April</option>
-                            <option>May</option>
-                            <option>June</option>
-                            <option>July</option>
-                            <option>August</option>
-                            <option>September</option>
-                            <option>October</option>
-                            <option>November</option>
-                            <option>December</option>
-                          </select>
-                          <select class="list-dt" id="year" name="expyear">
-                            <option selected>Year</option>
-                          </select>
+                      <input
+                        type="button"
+                        name="next"
+                        class="next action-button"
+                        value="التالي"
+                      />
+                    </fieldset>
+                    <fieldset>
+                      <div class="form-card">
+                        <h2 class="fs-title text-center mb-4">
+                          المرحلة الدراسية
+                        </h2>
+                        <div class="row">
+                          <div class="col-md-6 mb-3">
+                            <div class="d-flex flex-column">
+                              <h6>هل تخرجت من الثانوية؟</h6>
+                              <div class="d-flex align-center text-center">
+                                <div>
+                                  <span>نعم</span>
+
+                                  <input
+                                    type="radio"
+                                    name="graduate"
+                                    value="نعم"
+                                  />
+                                </div>
+                                <div>
+                                  <span> لأ </span>
+                                  <input
+                                    type="radio"
+                                    name="graduate"
+                                    value="لأ"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6 mb-3">
+                            <div class="d-flex flex-column">
+                              <h6>ماهي المرحلة التى تريد دراستها:</h6>
+                              <div class="d-flex align-center text-center">
+                                <div>
+                                  <span>بكالوريوس</span>
+                                  <input
+                                    type="radio"
+                                    name="choose"
+                                    value="بكالوريوس"
+                                  />
+                                </div>
+                                <div>
+                                  <span> ماجستير </span>
+                                  <input
+                                    type="radio"
+                                    name="choose"
+                                    value="ماجستير"
+                                  />
+                                </div>
+                                <div>
+                                  <span> دكتوراة </span>
+                                  <input
+                                    type="radio"
+                                    name="choose"
+                                    value="دكتوراة"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-9 mt-2">
+                            <div class="d-flex flex-column">
+                              <h6>مجال اهتمامك:</h6>
+                              <div class="input-group">
+                                <select
+                                  class="form-select"
+                                  id="inputGroupSelect04"
+                                  aria-label="Example select with button addon"
+                                >
+                                  <option selected>كلية علوم الحاسوب</option>
+                                  <option value="1">كلية الهندسة</option>
+                                  <option value="2">كلية الطب</option>
+                                  <option value="3">كلية الصحة</option>
+                                  <option value="4">كلية العلوم</option>
+                                  <option value="5">كلية ادارة الاعمال</option>
+                                  <option value="6">كلية الشريعة</option>
+                                  <option value="7">
+                                    كلية الوسايط المتعددة والجرافيك
+                                  </option>
+                                  <option value="8">تخصص آخر</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <input
-                      type="button"
-                      name="previous"
-                      class="previous action-button-previous"
-                      value="Previous"
-                    />
-                    <input
-                      type="button"
-                      name="make_payment"
-                      class="next action-button"
-                      value="Confirm"
-                    />
-                  </fieldset>
-                  <fieldset>
-                    <div class="form-card">
-                      <h2 class="fs-title text-center">Success !</h2>
-                      <br /><br />
-                      <div class="row justify-content-center">
-                        <div class="col-3">
-                          <img
-                            src="https://img.icons8.com/color/96/000000/ok--v2.png"
-                            class="fit-image"
-                          />
+                      <input
+                        type="button"
+                        name="previous"
+                        class="previous action-button-previous"
+                        value="السابق"
+                      />
+                      <input
+                        type="button"
+                        name="next"
+                        class="next action-button"
+                        value="التالي"
+                      />
+                    </fieldset>
+                    <fieldset>
+                      <div class="form-card">
+                        <h4
+                          class="fs-title text-center mb-4"
+                          style="font-size: 18px"
+                        >
+                          قم بتحديد ميزانيتك السنوية لرسوم الجامعة (لاقتراح
+                          الخيارات الانسب لك):
+                        </h4>
+                        <div class="col-md-9 mt-2">
+                          <div class="d-flex flex-column">
+                            <div class="input-group">
+                              <select
+                                class="form-select"
+                                id="inputGroupSelect04"
+                                aria-label="Example select with button addon"
+                              >
+                                <option selected>
+                                  2300 الى 3150 دولار سنويا
+                                </option>
+                                <option value="1">
+                                  3450 الى 4450 دولار سنويا
+                                </option>
+                                <option value="2">
+                                  4500 الى 5450 دولار سنويا
+                                </option>
+                                <option value="3">
+                                  5500 الى 6450 دولار سنويا
+                                </option>
+                                <option value="4">
+                                  6500 الى 9000 دولار سنويا
+                                </option>
+                                <option value="5">
+                                  10000 الى 22000 دولار سنويا (التخصصات الطبية
+                                  فقط)
+                                </option>
+                                <option value="6">
+                                  لا اعلم, افضل الاستشارة اولاّ
+                                </option>
+                              </select>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                      <br /><br />
-                      <div class="row justify-content-center">
-                        <div class="col-7 text-center">
-                          <h5>You Have Successfully Signed Up</h5>
+                      <input
+                        type="button"
+                        name="previous"
+                        class="previous action-button-previous"
+                        value="السابق"
+                      />
+                      <input
+                        type="button"
+                        name="make_payment"
+                        class="next action-button"
+                        value="تأكيد"
+                      />
+                    </fieldset>
+                    <fieldset>
+                      <div class="form-card">
+                        <h2 class="fs-title text-center">تم التسجيل بنجاح</h2>
+                        <br /><br />
+                        <div class="row justify-content-center">
+                          <div class="col-3">
+                            <img
+                              src="https://img.icons8.com/color/96/000000/ok--v2.png"
+                              class="fit-image"
+                            />
+                          </div>
+                        </div>
+                        <br /><br />
+                        <div class="row justify-content-center">
+                          <div class="col-7 text-center">
+                            <h5>بعد اكمال عملية التسجيل</h5>
+                            <p>
+                              بعد تعبية معلوماتك اعلاه سيتواصل معك مستشار تعليمي
+                              مخصص لتزويدك بالمعومات
+                              <span style="font-weight: bold; color: #f5b629"
+                                >مجاناً</span
+                              >.
+                            </p>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </fieldset>
-                </form>
+                    </fieldset>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- Test -->
+    </section>
+    <!-- MultiStep Form -->
 
     <!-- Copy Area -->
     <div class="copy-area">
@@ -1328,6 +1669,7 @@
     <!-- Contact Form Js -->
     <script src="assets/js/contact-form-script.js"></script>
     <!-- Main js -->
+
     <script src="assets/js/main.js"></script>
   </body>
 </html>

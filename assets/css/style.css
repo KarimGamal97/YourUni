@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Tajawal:500,700,800,900|Poppins:400,500,600,700,800&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Tajawal", sans-serif;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -4571,13 +4577,14 @@ a.scroll-top i {
 
 #msform fieldset .form-card {
   background: white;
-  border: 0 none;
+  border: 1px solid #eee;
   border-radius: 0px;
-  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
-  padding: 20px 40px 30px 40px;
+  /* box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2); */
+  padding: 50px 10px;
   box-sizing: border-box;
   width: 94%;
   margin: 0 3% 20px 3%;
+  border-radius: 12px;
 
   /*stacking fieldsets above each other*/
   position: relative;
@@ -4602,7 +4609,7 @@ a.scroll-top i {
 }
 
 #msform fieldset .form-card {
-  text-align: left;
+  text-align: right;
   color: #9e9e9e;
 }
 
@@ -4629,26 +4636,27 @@ a.scroll-top i {
   box-shadow: none !important;
   border: none;
   font-weight: bold;
-  border-bottom: 2px solid skyblue;
+  border-bottom: 2px solid #f5b629;
   outline-width: 0;
 }
 
 /*Blue Buttons*/
 #msform .action-button {
   width: 100px;
-  background: skyblue;
+  background: #381565;
   font-weight: bold;
-  color: white;
-  border: 0 none;
-  border-radius: 0px;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 12px;
   cursor: pointer;
   padding: 10px 5px;
   margin: 10px 5px;
+  transition: all 0.3s ease-in-out;
 }
 
 #msform .action-button:hover,
 #msform .action-button:focus {
-  box-shadow: 0 0 0 2px white, 0 0 0 3px skyblue;
+  border: 1px solid #f5b629;
 }
 
 /*Previous Buttons*/
@@ -4657,16 +4665,17 @@ a.scroll-top i {
   background: #616161;
   font-weight: bold;
   color: white;
-  border: 0 none;
-  border-radius: 0px;
+  border: 1px solid transparent;
+  border-radius: 12px;
   cursor: pointer;
   padding: 10px 5px;
   margin: 10px 5px;
+  transition: all 0.3s ease-in-out;
 }
 
 #msform .action-button-previous:hover,
 #msform .action-button-previous:focus {
-  box-shadow: 0 0 0 2px white, 0 0 0 3px #616161;
+  border: 1px solid #381565;
 }
 
 /*Dropdown List Exp Date*/
@@ -4679,7 +4688,7 @@ select.list-dt {
 }
 
 select.list-dt:focus {
-  border-bottom: 2px solid skyblue;
+  border-bottom: 2px solid #381565;
 }
 
 /*The background card*/
@@ -4768,7 +4777,8 @@ select.list-dt:focus {
 /*Color number of the step and the connector before it*/
 #progressbar li.active:before,
 #progressbar li.active:after {
-  background: skyblue;
+  background: #381565;
+  color: #f5b629;
 }
 
 /*Imaged Radio Buttons*/
@@ -4801,6 +4811,26 @@ select.list-dt:focus {
 .fit-image {
   width: 100%;
   object-fit: cover;
+}
+
+.animated-span {
+  display: inline-block;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 /* Test */

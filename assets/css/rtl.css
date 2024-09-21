@@ -304,6 +304,11 @@ Responsive CSS
     left: 54%;
     right: auto;
   }
+  @media (max-width: 991px) {
+    .home-admission .single-addmission .admission-circle {
+      left: 32%;
+    }
+  }
   .home-contact-area .home-contact-content {
     right: 0;
   }

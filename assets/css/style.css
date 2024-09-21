@@ -1524,6 +1524,11 @@ a.scroll-top i {
   padding: 70px 0;
   overflow: hidden;
 }
+@media (max-width: 991px) {
+  .home-admission {
+    margin-top: 50px;
+  }
+}
 .home-admission .single-addmission {
   /* background: url(../images/admission/bg.png) no-repeat; */
   background-color: #f5b629;
@@ -1546,6 +1551,7 @@ a.scroll-top i {
   top: -25px;
   left: -16px;
 }
+
 .home-admission .single-addmission .admission-circle h2 {
   position: absolute;
   top: 50%;
@@ -2021,6 +2027,12 @@ a.scroll-top i {
   position: relative;
   overflow: hidden;
 }
+@media (max-width: 991px) {
+  .home-teachers-area {
+    padding-top: 50px !important;
+  }
+}
+
 .home-teachers-area .section-tittle {
   margin-bottom: 30px;
 }
@@ -4835,5 +4847,11 @@ select.list-dt:focus {
 }
 
 /* Test */
+
+@media (max-width: 991px) {
+  .my-big-btn {
+    width: 220px !important;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

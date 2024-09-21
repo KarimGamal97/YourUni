@@ -6,6 +6,7 @@ Default CSS
   z-index: 1;
   left: 3%;
   bottom: 63px;
+  display: none !important;
 }
 .switch-box .switch {
   position: relative;
@@ -79,13 +80,46 @@ Default CSS
 .theme-dark a {
   color: #ffffff;
 }
-.theme-dark .h1, .theme-dark .h2, .theme-dark .h3, .theme-dark .h4, .theme-dark .h5, .theme-dark .h6, .theme-dark h1, .theme-dark h2, .theme-dark h3, .theme-dark h4, .theme-dark h5, .theme-dark h6 {
+.theme-dark .h1,
+.theme-dark .h2,
+.theme-dark .h3,
+.theme-dark .h4,
+.theme-dark .h5,
+.theme-dark .h6,
+.theme-dark h1,
+.theme-dark h2,
+.theme-dark h3,
+.theme-dark h4,
+.theme-dark h5,
+.theme-dark h6 {
   color: #ffffff !important;
 }
-.theme-dark .h1 a, .theme-dark .h2 a, .theme-dark .h3 a, .theme-dark .h4 a, .theme-dark .h5 a, .theme-dark .h6 a, .theme-dark h1 a, .theme-dark h2 a, .theme-dark h3 a, .theme-dark h4 a, .theme-dark h5 a, .theme-dark h6 a {
+.theme-dark .h1 a,
+.theme-dark .h2 a,
+.theme-dark .h3 a,
+.theme-dark .h4 a,
+.theme-dark .h5 a,
+.theme-dark .h6 a,
+.theme-dark h1 a,
+.theme-dark h2 a,
+.theme-dark h3 a,
+.theme-dark h4 a,
+.theme-dark h5 a,
+.theme-dark h6 a {
   color: #ffffff !important;
 }
-.theme-dark .h1 a:hover, .theme-dark .h2 a:hover, .theme-dark .h3 a:hover, .theme-dark .h4 a:hover, .theme-dark .h5 a:hover, .theme-dark .h6 a:hover, .theme-dark h1 a:hover, .theme-dark h2 a:hover, .theme-dark h3 a:hover, .theme-dark h4 a:hover, .theme-dark h5 a:hover, .theme-dark h6 a:hover {
+.theme-dark .h1 a:hover,
+.theme-dark .h2 a:hover,
+.theme-dark .h3 a:hover,
+.theme-dark .h4 a:hover,
+.theme-dark .h5 a:hover,
+.theme-dark .h6 a:hover,
+.theme-dark h1 a:hover,
+.theme-dark h2 a:hover,
+.theme-dark h3 a:hover,
+.theme-dark h4 a:hover,
+.theme-dark h5 a:hover,
+.theme-dark h6 a:hover {
   color: #16056b !important;
 }
 .theme-dark .box-btn {
@@ -118,23 +152,107 @@ Default CSS
   color: #ffffff;
   border-bottom: 1px dashed #000000;
 }
-.theme-dark .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
+.theme-dark
+  .main-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #ffffff;
   border-bottom: 1px dashed #000000;
 }
-.theme-dark .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.theme-dark
+  .main-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #ffffff;
 }
-.theme-dark .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.theme-dark
+  .main-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #ffffff;
 }
-.theme-dark .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.theme-dark
+  .main-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #ffffff;
 }
-.theme-dark .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.theme-dark
+  .main-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #ffffff;
 }
-.theme-dark .main-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.theme-dark
+  .main-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #ffffff;
 }
 .theme-dark .main-nav .navbar .others-options ul li .sign-in {
@@ -277,10 +395,18 @@ Default CSS
   background-color: #000000;
   color: #ffffff;
 }
-.theme-dark .admission-area .admission-form .form-group .form-control::-moz-placeholder {
+.theme-dark
+  .admission-area
+  .admission-form
+  .form-group
+  .form-control::-moz-placeholder {
   color: #ffffff;
 }
-.theme-dark .admission-area .admission-form .form-group .form-control::placeholder {
+.theme-dark
+  .admission-area
+  .admission-form
+  .form-group
+  .form-control::placeholder {
   color: #ffffff;
 }
 .theme-dark .price-area .single-price {
@@ -302,20 +428,43 @@ Default CSS
   background-color: #000000;
   color: #ffffff;
 }
-.theme-dark .signup-area .signup-form .form-group .form-control::-moz-placeholder {
+.theme-dark
+  .signup-area
+  .signup-form
+  .form-group
+  .form-control::-moz-placeholder {
   color: #ffffff;
 }
 .theme-dark .signup-area .signup-form .form-group .form-control::placeholder {
   color: #ffffff;
 }
-.theme-dark .faq-area .faq-content .faq-accordion .accordion .accordion-item .accordion-title {
+.theme-dark
+  .faq-area
+  .faq-content
+  .faq-accordion
+  .accordion
+  .accordion-item
+  .accordion-title {
   background-color: #0e0e0e;
   color: #ffffff;
 }
-.theme-dark .faq-area .faq-content .faq-accordion .accordion .accordion-item .accordion-title i {
+.theme-dark
+  .faq-area
+  .faq-content
+  .faq-accordion
+  .accordion
+  .accordion-item
+  .accordion-title
+  i {
   color: #ffffff;
 }
-.theme-dark .faq-area .faq-content .faq-accordion .accordion .accordion-item .accordion-content {
+.theme-dark
+  .faq-area
+  .faq-content
+  .faq-accordion
+  .accordion
+  .accordion-item
+  .accordion-content {
   background-color: #0e0e0e;
 }
 .theme-dark .home-news .single-home-news .single-home-content {
@@ -350,10 +499,18 @@ Default CSS
   background-color: #000000;
   color: #ffffff;
 }
-.theme-dark .home-contact-area .home-contact-content .form-group .form-control::-moz-placeholder {
+.theme-dark
+  .home-contact-area
+  .home-contact-content
+  .form-group
+  .form-control::-moz-placeholder {
   color: #ffffff;
 }
-.theme-dark .home-contact-area .home-contact-content .form-group .form-control::placeholder {
+.theme-dark
+  .home-contact-area
+  .home-contact-content
+  .form-group
+  .form-control::placeholder {
   color: #ffffff;
 }
 .theme-dark .contact-service .single-service {
@@ -384,4 +541,4 @@ Default CSS
   .theme-dark .mobile-nav .logo .white-logo {
     display: block;
   }
-}/*# sourceMappingURL=dark.css.map */
+} /*# sourceMappingURL=dark.css.map */

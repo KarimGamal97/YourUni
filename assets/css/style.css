@@ -4050,6 +4050,7 @@ a.scroll-top i {
 .testimonials-area .single-testimonials .testimonials-foot p {
   margin-bottom: 0;
   color: #616161;
+  font-size: 14px;
 }
 .testimonials-area .single-testimonials:hover {
   transform: translateY(-10px);

@@ -185,8 +185,8 @@ a.scroll-top i {
   transition: 0.3s;
   border-radius: 100px;
   overflow: hidden;
-  background: #f5b629;
-  color: #381565;
+  background: red;
+  color: #fff;
   position: relative;
   font-weight: bold;
   border: 2px solid #c0392b;

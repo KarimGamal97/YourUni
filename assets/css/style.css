@@ -185,9 +185,11 @@ a.scroll-top i {
   transition: 0.3s;
   border-radius: 100px;
   overflow: hidden;
-  background: #fff;
+  background: #f5b629;
   color: #381565;
   position: relative;
+  font-weight: bold;
+  border: 2px solid #c0392b;
 }
 .box-btn:hover {
   background: #fff;
@@ -4047,6 +4049,7 @@ a.scroll-top i {
   left: -60px;
   z-index: -1;
   overflow: hidden;
+  display: none;
 }
 .testimonials-area .single-testimonials .testimonials-head .content .rate {
   padding: 0;
@@ -4850,7 +4853,7 @@ select.list-dt:focus {
 
 @media (max-width: 991px) {
   .my-big-btn {
-    width: 220px !important;
+    width: 230px !important;
   }
 }
 

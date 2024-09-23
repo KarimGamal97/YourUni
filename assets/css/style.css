@@ -4026,6 +4026,12 @@ a.scroll-top i {
   overflow: hidden;
   margin-bottom: 20px;
   transition: 0.3s;
+  height: 300px;
+}
+@media (max-width: 991px) {
+  .testimonials-area .single-testimonials {
+    height: 400px !important;
+  }
 }
 .testimonials-area .single-testimonials .testimonials-head .testimonials-img {
   border: 1px solid #381565;

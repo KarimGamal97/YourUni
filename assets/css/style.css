@@ -1412,18 +1412,18 @@ a.scroll-top i {
 .home-ragular-course .single-ragular-course .course-img {
   position: relative;
 }
-.home-ragular-course .single-ragular-course .course-img h2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 31px;
+.home-ragular-course .single-ragular-course .course-content h2 {
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  font-size: 26px;
   font-family: "Tajawal", sans-serif;
   color: #f5b629;
   text-align: center;
 }
 .home-ragular-course .single-ragular-course .course-img img {
-  border-radius: 0px 0px 100% 100%;
+  /* border-radius: 0px 0px 100% 100%; */
 }
 .home-ragular-course .single-ragular-course .course-img::before {
   position: absolute;
@@ -1431,8 +1431,8 @@ a.scroll-top i {
   width: 100%;
   height: 100%;
   opacity: 0.8;
-  background: #381565;
-  border-radius: 0px 0px 100% 100%;
+  /* background: #381565;
+  border-radius: 0px 0px 100% 100%; */
 }
 .home-ragular-course .single-ragular-course .course-content {
   padding: 30px 30px;
